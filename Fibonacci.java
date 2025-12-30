@@ -20,7 +20,7 @@ public class Fibonacci {
     public static void main(String[] args) {
         Fibonacci f = new Fibonacci();
 
-        int x = 10;
+        int x = 3;
         int[] resultado = f.criaFibonacci(x);
 
         System.out.println(Arrays.toString(resultado));

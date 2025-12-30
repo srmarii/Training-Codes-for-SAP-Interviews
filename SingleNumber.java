@@ -1,4 +1,4 @@
-public class Single {
+public class SingleNumber {
     public int isSingle(int[] nums){
         boolean single;
         int tam = nums.length;
@@ -8,6 +8,7 @@ public class Single {
             for(int j = 0; j <tam; j++){
                 if(j != i && nums[i] == nums[j]){
                     single = false;
+                    break;
                 }
             }
 
@@ -20,8 +21,8 @@ public class Single {
     }
 
     public static void main(String[] args) {
-        Single s = new Single();
-        int[] nums = {4, 1, 2, 1, 2};
+        SingleNumber s = new SingleNumber();
+        int[] nums = {4, 4, 9, 1, 2, 1, 2};
 
         System.out.println(s.isSingle(nums));
     }

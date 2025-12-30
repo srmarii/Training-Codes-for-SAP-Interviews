@@ -11,7 +11,7 @@ public class Fatorial {
 
     public static void main(String[] args) {
         Fatorial f = new Fatorial();
-        int x = 4;
+        int x = 5;
 
         System.out.println(f.fatora(x));
     }

@@ -13,7 +13,7 @@ public class PalindromoInt {
     public static void main(String[] args) {
         PalindromoInt p = new PalindromoInt();
 
-        int num = 123;
+        int num = 121;
 
         System.out.println(p.isPalindromo(num));
     }

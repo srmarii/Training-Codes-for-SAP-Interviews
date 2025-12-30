@@ -1,6 +1,4 @@
-
-
-public class Inverter{
+public class InverterString{
     public String inverteString(String word){
         String newWord = "";
         int tam = word.length();
@@ -14,9 +12,9 @@ public class Inverter{
     }
     public static void main(String[] args) {
 
-        Inverter inv = new Inverter();
+        InverterString inv = new InverterString();
 
-        String word = "tapas e beijos";
+        String word = "Garrafa termica";
         
         System.out.println(inv.inverteString(word));
 
