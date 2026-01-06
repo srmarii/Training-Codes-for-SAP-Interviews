@@ -28,7 +28,7 @@ public class AAASummingDigitArrays {
     }
 
     public static void main(String[] args) {
-        SummingDigitArrays t = new SummingDigitArrays();
+        AAASummingDigitArrays t = new AAASummingDigitArrays();
 
         int[] vetor1 = {1, 2, 6};
         int[] vetor2 = {4, 5, 6};

@@ -1,10 +1,11 @@
 class ParOuImpar{
     public String isImparOrPar(int x){
+        String par = "Par", impar = "Impar";
 
         if(x % 2 == 0){
-            return "Par";
+            return par;
         } else{
-            return "Impar";
+            return impar;
         }
     }
 

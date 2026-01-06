@@ -1,18 +1,16 @@
 public class SegundoMaior {
     public int segundoMaiorNum(int[] nums){
-        int[] doisMaiores = new int[2];
-        int tam = nums.length;
+        int tam = nums.length, maior = nums[0], segMaior = -1;
 
-        doisMaiores[0] = nums[0];
 
         for(int i =0; i<tam; i++){
-            if(nums[i] > doisMaiores[0]){
-                doisMaiores[1] = doisMaiores[0];
-                doisMaiores[0] = nums[i];
+            if(nums[i] > maior){
+                segMaior = maior;
+                maior = nums[i];
             }
         }
 
-        return doisMaiores[1];
+        return segMaior;
     }
 
     public static void main(String[] args) {
