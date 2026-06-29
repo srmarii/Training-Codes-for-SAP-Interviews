@@ -6,7 +6,7 @@ Write a method that two strings and compare them to checks if the first string i
  
 import java.lang.*;
  
-public class Test {
+public class AAATest {
  
   public static void main(String args[]) {
  
@@ -38,13 +38,12 @@ public class Test {
       } else{
             for(int i = 0; i<tam1; i++){
                 aux = s2.charAt(i);
-                    if( s1.contains(aux) == false){
-                        return false;
-                    } else {
-                       anagram = true;
-                    }
+                    // if( s1.contains(aux) == false){
+                    //     return false;
+                    // } else {
+                    //    anagram = true;
+                    // }
             }
-            if()
 
       }
 
