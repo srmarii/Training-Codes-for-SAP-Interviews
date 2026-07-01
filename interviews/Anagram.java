@@ -7,17 +7,17 @@ Write a method that two strings and compare them to checks if the first string
 is a anagram of second string.
 */
  
-import java.lang.*;
- 
 public class Anagram {
  
   public static void main(String args[]) {
  
+      //pass
       String result1 = isAnagram("sap", "pas") ? "Pass": "Fail";
       System.out.println(result1);
- 
+      //fail
       String result2 = isAnagram("anagram", "nagaram") ? "Pass": "Fail";
       System.out.println(result2);
+      //fail
       String result3 = isAnagram("car", "rat") ? "Fail" : "Pass";
       System.out.println(result3);
       String result4 = isAnagram("", "") ? "Fail" : "Pass";
@@ -30,29 +30,18 @@ public class Anagram {
 
 
   public static boolean isAnagram(String s1, String s2) {
-      String word = "";
-      char aux;
-      Boolean anagram = false;
-      char[] charS1 = s1.toCharArray();
-      int tam1 = s1.length(), tam2 = s2.length();
+    int tam = s1.length();
+    String s1Anagram = "";
 
-      if(tam1 != tam2){
-        return false;
-      } else{
-            for(int i = 0; i<tam1; i++){
-                aux = s2.charAt(i);
-                    // if( s1.contains(aux) == false){
-                    //     return false;
-                    // } else {
-                    //    anagram = true;
-                    // }
-            }
+    if(s1.isEmpty() || s2.isEmpty() || s1.isBlank() || s2.isBlank()){
+      return false;
+    } else{ 
 
+      for(int i = tam-1; i>=0; i--){
+        s1Anagram = s1Anagram + s1.charAt(i);
       }
 
-
-
-
-      return false;
+        return s1Anagram.equals(s2);
+    }
   }
 }
