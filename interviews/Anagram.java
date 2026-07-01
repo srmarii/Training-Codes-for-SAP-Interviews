@@ -1,12 +1,15 @@
+package interviews;
 /*
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+An Anagram is a word or phrase formed by rearranging the letters of a 
+different word or phrase, typically using all the original letters exactly once.
  
-Write a method that two strings and compare them to checks if the first string is a anagram of second string.
+Write a method that two strings and compare them to checks if the first string 
+is a anagram of second string.
 */
  
 import java.lang.*;
  
-public class AAATest {
+public class Anagram {
  
   public static void main(String args[]) {
  

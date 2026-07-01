@@ -1,9 +1,11 @@
+package interviews;
+
 // add([7], [4]) should return [1,1] (7 + 4 = 11)
 // add([9,9,5], [1,0]) should return [1,0,0,5] (995 + 10 = 1005)
 
 // https://gist.github.tools.sap/I860668/1d631abfc7a2645d5e6cd6ffa43a7a5f
 
-public class AAASummingDigitArrays {
+public class SummingDigitArrays {
     public int[] summingDigits(int[] vetor1, int[] vetor2){
         int tam2 = vetor2.length, tam1 = vetor1.length, aux=0;
         int[] soma = new int[tam1];
@@ -28,7 +30,7 @@ public class AAASummingDigitArrays {
     }
 
     public static void main(String[] args) {
-        AAASummingDigitArrays t = new AAASummingDigitArrays();
+        SummingDigitArrays t = new SummingDigitArrays();
 
         int[] vetor1 = {1, 2, 6};
         int[] vetor2 = {4, 5, 6};
