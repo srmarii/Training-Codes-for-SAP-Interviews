@@ -1,3 +1,4 @@
+package leetcode;
 public class TwoDifference {
 
     //Criar um método que recebe: um array de inteiros e um valor target

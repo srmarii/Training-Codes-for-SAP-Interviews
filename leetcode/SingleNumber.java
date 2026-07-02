@@ -1,3 +1,4 @@
+package leetcode;
 public class SingleNumber {
     public int isSingle(int[] nums){
         boolean single;
