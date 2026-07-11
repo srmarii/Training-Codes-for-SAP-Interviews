@@ -26,7 +26,7 @@ AABBCCDDEEFF
 Output: `-1`
 */
 
-public class Substring {
+public class SubstringBRUNO {
     public int findTheSubstring(String entrada){
       int tam = entrada.length(), indice=-1;
       boolean continuar = true;
@@ -59,7 +59,7 @@ public class Substring {
     }
 
     public static void main(String[] args) {
-      Substring s = new Substring();
+      SubstringBRUNO s = new SubstringBRUNO();
 
       System.out.println(s.findTheSubstring("ABCDEFGHIJ"));
     }
