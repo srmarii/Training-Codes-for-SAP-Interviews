@@ -4,12 +4,17 @@ import java.util.HashMap;
 
 public class SingleNumberHashMap {
     public int whichIsTheSingle(int nums[]){
+        //chave = numero em si
+        //valor = quantas vezes ele apareceu
         HashMap<Integer, Integer> hm = new HashMap<>();
 
         for(int numero: nums){
-            hm.put(numero, hm.getOrDefault(numero, 0)+1);
+            hm.put(numero, 
+                hm.getOrDefault(numero, 0)
+                +1);
         }
 
+        //keySet() retorna todos as chaves do hm
         for(int chave: hm.keySet()){
             if(hm.get(chave) == 1){
                 return chave;
