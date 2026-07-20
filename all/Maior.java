@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 class Maior{
     public int theBigger(int[] num){
         int tam = num.length, maior = num[0];

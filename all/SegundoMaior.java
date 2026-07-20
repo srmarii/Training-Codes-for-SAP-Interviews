@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 public class SegundoMaior {
     public int segundoMaiorNum(int[] nums){
         int tam = nums.length, maior = nums[0], segMaior = -1;

@@ -1,8 +1,8 @@
-package again;
+package hashmap;
 
 import java.util.HashMap;
 
-public class SingleNumberHashMap {
+public class SingleNumber {
     public int whichIsTheSingle(int nums[]){
         //chave = numero em si
         //valor = quantas vezes ele apareceu
@@ -26,7 +26,7 @@ public class SingleNumberHashMap {
 
  
     public static void main(String[] args) {
-        SingleNumberHashMap s = new SingleNumberHashMap();
+        SingleNumber s = new SingleNumber();
         int[] nums = {4, 4, 9, 1, 2, 1, 2};
 
         System.out.println(s.whichIsTheSingle(nums));

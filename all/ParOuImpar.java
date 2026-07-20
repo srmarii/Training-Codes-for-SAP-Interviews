@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 class ParOuImpar{
     public String isImparOrPar(int x){
         String par = "Par", impar = "Impar";

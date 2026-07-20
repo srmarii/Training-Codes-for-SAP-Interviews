@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 public class InverterString{
     public String inverteString(String word){
         String newWord = "";

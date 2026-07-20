@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 public class ContarPalavras {
     public int contaPalavras(String frase){
         int tam = frase.length(), cont=1;

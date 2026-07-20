@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 
 /* # Distinct Substring
 You receive a string of N letters (7 ≤ N ≤ 1000).

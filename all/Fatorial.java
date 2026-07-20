@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 public class Fatorial {
     public int fatora(int x){
         int numFatorado = 1;

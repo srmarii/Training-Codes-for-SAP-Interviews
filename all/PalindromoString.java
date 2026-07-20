@@ -1,4 +1,4 @@
-package leetcode;
+package all;
 public class PalindromoString {
     public Boolean isPalindromo(String word){
         String newWord = "";
