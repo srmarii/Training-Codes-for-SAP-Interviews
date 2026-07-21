@@ -5,7 +5,7 @@ Dado uma string, retorne o primeiro caractere que aparece exatamente uma vez. Se
 Input:  "aabbcde"  → Output: 'c'
 Input:  "aabb"     → Output: '#'
 
-[ ] Two Sum — retorna os valores, não os índices
+[X] Two Sum — retorna os valores, não os índices
 Igual ao TwoSum, mas em vez de retornar os índices, retorne os dois números que somam o target.
 Input:  nums = [3, 5, 2, 8, 1], target = 10  → Output: [2, 8]
 
