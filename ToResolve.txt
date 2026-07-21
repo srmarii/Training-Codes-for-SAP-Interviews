@@ -1,4 +1,6 @@
-[ ] First Non-Repeating Character
+To resolve with HASHMAP
+
+[X] First Non-Repeating Character
 Dado uma string, retorne o primeiro caractere que aparece exatamente uma vez. Se não existir, retorne '#'.
 Input:  "aabbcde"  → Output: 'c'
 Input:  "aabb"     → Output: '#'
