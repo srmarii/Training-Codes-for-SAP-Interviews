@@ -1,0 +1,51 @@
+[ ] First Non-Repeating Character
+Dado uma string, retorne o primeiro caractere que aparece exatamente uma vez. Se não existir, retorne '#'.
+Input:  "aabbcde"  → Output: 'c'
+Input:  "aabb"     → Output: '#'
+
+[ ] Two Sum — retorna os valores, não os índices
+Igual ao TwoSum, mas em vez de retornar os índices, retorne os dois números que somam o target.
+Input:  nums = [3, 5, 2, 8, 1], target = 10  → Output: [2, 8]
+
+[ ] Contains Duplicate
+Dado um array, retorne true se algum número aparecer mais de uma vez.
+Input:  [1, 2, 3, 4]  → false
+Input:  [1, 2, 3, 1]  → true
+
+[ ] Intersection of Two Arrays
+Dados dois arrays, retorne um array com os elementos que aparecem nos dois.
+Input:  [1, 2, 2, 3, 4],  [2, 2, 5, 4]  → Output: [2, 4]  (sem duplicatas no resultado)
+
+[ ] Word Frequency Counter
+Dada uma frase (String), retorne qual palavra aparece mais vezes.
+Input:  "the cat sat on the mat the cat"  → Output: "the"
+
+[ ] Subarray Sum Equals K
+Dado um array e um valor k, retorne true se existe algum subarray contíguo cuja soma seja igual a k.
+Input:  nums = [1, 2, 3, 4, 5], k = 9  → true  (2 + 3 + 4 = 9)
+Input:  nums = [1, 2, 3], k = 10       → false
+
+[ ] Distinct Substring
+You receive a string of N letters (7 ≤ N ≤ 1000).
+You need to find the first sequence of 7 distinct characters and return its position.
+The string starts at position 0. If the sequence is not found, return -1.
+
+## Examples
+Input string:
+ABCDEFGHIJ
+└─────┘
+
+Output: `0`
+---
+Input string:
+
+ABCABCDEFGHIJABCDEFGHIJ
+   └─────┘
+
+Output: `3`
+---
+Input string:
+
+AABBCCDDEEFF
+
+Output: `-1`
