@@ -1,3 +1,7 @@
+//PRA RODAR
+// node <nomeDoArquivo> 
+// é preciso ja estar nele, se não precisa fornecer a path
+
 class MaiorSalario {
 
     //JS é dinamicamente tipado, então o interpretador 
