@@ -7,6 +7,8 @@ class MaiorSalario {
     //JS é dinamicamente tipado, então o interpretador 
     //descobre o tipo do retorno em tempo de execução. 
     // O return { nomeMaior, maiorSalario } já é suficiente.
+
+    //em JS, nunca coloca tipo nem let/const nos parâmetros.
     maiorSalario(json) {
 
         // Sem o parse, json é só texto — você não 
