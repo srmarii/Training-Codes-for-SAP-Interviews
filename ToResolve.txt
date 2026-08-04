@@ -56,7 +56,7 @@ Output: `-1`
 
 To resolve with JSON
 
------- [ ] Total de salários
+------ [X] Total de salários
 Dado o JSON abaixo, retorne a soma de todos os salários:
   [
       {"nome": "Ana", "salario": 5000.0},
