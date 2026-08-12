@@ -64,7 +64,7 @@ Dado o JSON abaixo, retorne a soma de todos os salários:
       {"nome": "Beatriz", "salario": 6500.0}
   ]
 
------- [ ] Funcionários acima da média
+------ [X] Funcionários acima da média
 Dado o JSON abaixo, retorne uma lista com os nomes dos funcionários que ganham acima da média salarial:
   [
       {"nome": "Ana", "salario": 5000.0},
@@ -72,3 +72,22 @@ Dado o JSON abaixo, retorne uma lista com os nomes dos funcionários que ganham 
       {"nome": "Beatriz", "salario": 6500.0},
       {"nome": "Diego", "salario": 4000.0}
   ]
+
+------ [X] Exercício — Contagem por departamento
+
+Dado o JSON abaixo, retorne quantos funcionários existem em cada departamento:
+
+[
+    {"nome": "Ana", "departamento": "TI"},
+    {"nome": "Carlos", "departamento": "RH"},
+    {"nome": "Beatriz", "departamento": "TI"},
+    {"nome": "Diego", "departamento": "Financeiro"},
+    {"nome": "Elena", "departamento": "RH"}
+]
+
+Retorno esperado:
+TI: 2
+RH: 2
+Financeiro: 1
+
+Dica: você vai precisar de um objeto {} para guardar a contagem por departamento, em vez de um array. É parecido com o HashMap do Java.
