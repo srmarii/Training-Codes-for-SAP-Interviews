@@ -14,7 +14,7 @@ Dado um array, retorne true se algum número aparecer mais de uma vez.
 Input:  [1, 2, 3, 4]  → false
 Input:  [1, 2, 3, 1]  → true
 
------- [ ] Intersection of Two Arrays
+------ [X] Intersection of Two Arrays
 Dados dois arrays, retorne um array com os elementos que aparecem nos dois.
 Input:  [1, 2, 2, 3, 4],  [2, 2, 5, 4]  → Output: [2, 4]  (sem duplicatas no resultado)
 
