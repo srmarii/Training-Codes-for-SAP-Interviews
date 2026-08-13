@@ -9,7 +9,7 @@ Input:  "aabb"     → Output: '#'
 Igual ao TwoSum, mas em vez de retornar os índices, retorne os dois números que somam o target.
 Input:  nums = [3, 5, 2, 8, 1], target = 10  → Output: [2, 8]
 
------- [ ] Contains Duplicate
+------ [X] Contains Duplicate
 Dado um array, retorne true se algum número aparecer mais de uma vez.
 Input:  [1, 2, 3, 4]  → false
 Input:  [1, 2, 3, 1]  → true
