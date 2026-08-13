@@ -18,7 +18,7 @@ Input:  [1, 2, 3, 1]  → true
 Dados dois arrays, retorne um array com os elementos que aparecem nos dois.
 Input:  [1, 2, 2, 3, 4],  [2, 2, 5, 4]  → Output: [2, 4]  (sem duplicatas no resultado)
 
------- [ ] Word Frequency Counter
+------ [X] Word Frequency Counter
 Dada uma frase (String), retorne qual palavra aparece mais vezes.
 Input:  "the cat sat on the mat the cat"  → Output: "the"
 
