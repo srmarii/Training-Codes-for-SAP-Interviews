@@ -22,8 +22,7 @@ public class FirstNonRepeatingCharacter {
         }
 
         for(int i = 0; i < tam; i++){
-            Character charAtual =
-            palavra.charAt(i);
+            Character charAtual = palavra.charAt(i);
             if(hm.get(charAtual) == 1){
                 return charAtual;
             }

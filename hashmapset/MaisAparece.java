@@ -4,9 +4,10 @@ import java.util.HashMap;
 
 public class MaisAparece {
     public int whichMostAppears(int[] nums){
+        int maiorFreq = 0, maisAparece = -1;
+
         //chave = numero
         //valor = frequencia
-        int maiorFreq = 0, maisAparece = -1;
         HashMap<Integer, Integer> hm = new HashMap<>();
 
         for(int numero: nums){
