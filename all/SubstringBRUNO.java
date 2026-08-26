@@ -1,5 +1,3 @@
-package all;
-
 /* # Distinct Substring
 You receive a string of N letters (7 ≤ N ≤ 1000).
 You need to find the first sequence of 7 distinct characters and return its position.

@@ -1,4 +1,3 @@
-package all;
 import java.util.Arrays;
 
 public class Fibonacci {

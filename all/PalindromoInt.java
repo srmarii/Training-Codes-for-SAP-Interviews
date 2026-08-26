@@ -1,4 +1,3 @@
-package all;
 public class PalindromoInt {
     public Boolean isPalindromo(int num){
         int aux = num, newNum = 0;

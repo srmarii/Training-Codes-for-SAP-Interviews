@@ -1,4 +1,3 @@
-package all;
 public class SingleNumber {
     public int isSingle(int[] nums){
         boolean single;
