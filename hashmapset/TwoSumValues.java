@@ -15,17 +15,19 @@ public class TwoSumValues {
         int tam = nums.length, twoNums[] = new int[2];
 
         //chave = numero
-        HashSet<Integer> hm = new HashSet<>();
+        HashSet<Integer> hs = new HashSet<>();
 
         for(int i = 0; i<tam; i++){
             int complemento = target - nums[i];
 
-            if(hm.contains(complemento)){
+            if(hs.contains(complemento)){
                 twoNums[0] = nums[i];
                 twoNums[1] = complemento;
+
                 return twoNums;
+                
             } else{
-                hm.add(nums[i]);
+                hs.add(nums[i]);
             }
         }
 
