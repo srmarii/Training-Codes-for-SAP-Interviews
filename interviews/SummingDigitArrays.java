@@ -5,6 +5,13 @@ package interviews;
 
 // https://gist.github.tools.sap/I860668/1d631abfc7a2645d5e6cd6ffa43a7a5f
 
+
+/*
+int n = 157;
+n % 10  // = 7  → pega o último dígito
+n / 10  // = 15 → remove o último dígito
+*/
+
 public class SummingDigitArrays {
     public int[] summingDigits(int[] vetor1, int[] vetor2){
         int tam2 = vetor2.length, tam1 = vetor1.length, aux=0;
