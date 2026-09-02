@@ -1,8 +1,44 @@
 To resolve with HASHMAP and HASHSET
 
------- [ ] Subarray Sum Equals K
+Subarray Sum Equals K
+
 Dado um array e um valor k, retorne true se existe algum subarray contíguo cuja soma seja igual a k.
 Input:  nums = [1, 2, 3, 4, 5], k = 9  → true  (2 + 3 + 4 = 9)
 Input:  nums = [1, 2, 3], k = 10       → false
 
 ----------------------------------------------------------------------------------------------------
+DigitSum
+
+Dado um número inteiro, retorne a soma dos seus dígitos.
+Input:  1234  → Output: 10  (1+2+3+4)
+Input:  9901  → Output: 19  (9+9+0+1)
+
+---
+CountDivisors
+
+Dado um número inteiro, retorne quantos divisores ele tem.
+Input:  12  → Output: 6   (1, 2, 3, 4, 6, 12)
+Input:  7   → Output: 2   (1, 7)
+Input:  1   → Output: 1   (1)
+
+---
+Fibbonaci and Prime Number
+
+Write a program that receives a number N as input and prints the first N Fibonacci numbers that are also prime.
+----------------------------------------------------------------------------------------------------
+To resolve with PAGINATION
+
+1. Índice final da página
+Dado um número de página e tamanho de página, retorne o último índice (exclusive) que deve ser lido de uma lista.
+
+---
+2. Número total de páginas
+Dada uma quantidade total de itens e um tamanho de página, retorne quantas páginas são necessárias para exibir todos os itens.
+
+---
+3. Número da página a partir de um índice
+Dado um índice de um item na lista e um tamanho de página, retorne em qual página esse item se encontra (começando da página 1).
+
+---
+4. Itens de uma página
+Dada uma lista, um número de página e um tamanho de página, retorne os itens daquela página.
