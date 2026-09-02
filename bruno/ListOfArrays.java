@@ -23,15 +23,12 @@ public class ListOfArrays {
         //key = word sorted
         //value = String not sorted
         HashMap<String, ArrayList<String>> hm = new HashMap<>();
-        String newWords[] = new String[words.length];
         String sortedString = "";
-        int k = 0; 
         List<List<String>> returnArray = new ArrayList<>();
 
 
         for(int i = 0; i < words.length; i++){
-          //  sortedString = Arrays.sort(words[i]);
-
+          // sortedString = Arrays.sort(words[i]);
             char[] chars = words[i].toCharArray();
             Arrays.sort(chars);
             sortedString = new String(chars);
@@ -43,7 +40,6 @@ public class ListOfArrays {
             array.add(words[i]);
             if(!hm.containsKey(sortedString)){
                 hm.put(sortedString, array);
-                k++;
             } else{
                 newArray = hm.get(sortedString);
                 newArray.add(words[i]);
