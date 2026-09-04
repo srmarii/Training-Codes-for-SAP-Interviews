@@ -39,10 +39,10 @@ firstIndex(2, 5) → 5   // página 2 começa no índice 5
 firstIndex(3, 5) → 10  // página 3 começa no índice 10
 */
 public class Pagination {
-    public int firstIndex(int page, int pageSize) {
+    public int firstIndex(int pageNumber, int pageSize) {
         //A página 1 começa no índice 0, não no 1 — por isso o -1
         // Cada página tem pageSize elementos, então você multiplica para saber onde a próxima começa
-        return (page - 1) * pageSize;
+        return (pageNumber - 1) * pageSize;
     }
 
     public static void main(String[] args) {
