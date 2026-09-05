@@ -1,3 +1,4 @@
+package pagination;
 /*
 1. Índice final da página
 Dado um número de página e tamanho de página, retorne o último índice (exclusive) que deve ser lido de uma lista.

@@ -13,10 +13,6 @@ Write a program that receives a number N as input and prints the first N Fibonac
 ----------------------------------------------------------------------------------------------------
 To resolve with PAGINATION
 
-2. Número total de páginas
-Dada uma quantidade total de itens e um tamanho de página, retorne quantas páginas são necessárias para exibir todos os itens.
-
----
 3. Número da página a partir de um índice
 Dado um índice de um item na lista e um tamanho de página, retorne em qual página esse item se encontra (começando da página 1).
 
