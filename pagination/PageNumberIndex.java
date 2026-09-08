@@ -14,9 +14,10 @@ pageSize = 5
 */
 public class PageNumberIndex {
     public int whichPage(int indexItem, int pageSize){
-        if(indexItem < pageSize){
-            return 1;
-        }
-        return 0;
+
+        // qualquer indice da pagina 1 (0,1,2,3,4) dividido por 5 daria 0
+        // qualque indice da pagina 2 (5,6,7,8,9) dividido por 5 daria 1
+        // +1 porque normalmente as paginas começam no 1
+        return (indexItem / pageSize) + 1;
     }
 }
