@@ -20,4 +20,10 @@ public class PageNumberIndex {
         // +1 porque normalmente as paginas começam no 1
         return (indexItem / pageSize) + 1;
     }
+
+    public static void main(String[] args) {
+        PageNumberIndex pageNumberIndex = new PageNumberIndex();
+
+        System.out.println(pageNumberIndex.whichPage(0, 5));
+    }
 }

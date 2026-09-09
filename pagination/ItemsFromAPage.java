@@ -10,7 +10,7 @@ list = {1,2,3,4,5,6,7,8,9}
 pageNumber = 3
 pageSize = 2
 
-pages= {1,2}, {3,4}, {5,6}, {7,8}, {9}
+pages= {0,1}, {2,3}, {4,5}, {6,7}, {8}
         1       2      3      4     5
 
 */
@@ -20,8 +20,9 @@ public class ItemsFromAPage {
         ArrayList<Integer> arrayReturn = new ArrayList<>();
 
         for(int i = firstIndex; 
+            i < firstIndex + pageSize 
             //i < list.length para o caso de pageNumber ser 5
-            i < firstIndex + pageSize && i < list.length; 
+            && i < list.length; 
             i++){
             arrayReturn.add(list[i]);
         }
@@ -32,7 +33,7 @@ public class ItemsFromAPage {
     public static void main(String[] args) {
         ItemsFromAPage itemsFromAPage = new ItemsFromAPage();
 
-        int list[] = {1,2,3,4,5,6,7,8,9};
+        int list[] = {0,1,2,3,4,5,6,7,8};
         System.out.println(itemsFromAPage.returnItems(list, 5, 2));
     }
 }
