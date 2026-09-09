@@ -5,12 +5,13 @@ public class FibonacciAndPrime {
         int fibonacciNumber = 1, currentNumber = 1, pastNumber = 0, counter = 0;
         while (counter < n){
             boolean isPrime = true;
-            for(int m = 2; m < fibonacciNumber; m++) {
-                if(fibonacciNumber % m == 0){
+            for(int i = 2; i < fibonacciNumber; i++) {
+                if(fibonacciNumber % i == 0){
                     isPrime = false;
                     break;
                 }
             }
+            
             if(isPrime){
                 System.out.println(fibonacciNumber);
                 counter++;

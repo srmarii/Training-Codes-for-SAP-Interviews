@@ -16,15 +16,14 @@ public class MostAppears {
         }
 
         for(int key: hm.keySet()){
-            int currentlyFrequency = hm.get(key); 
-            if(currentlyFrequency > biggestFrequency){
-                biggestFrequency = currentlyFrequency;
+            int currentFrequency = hm.get(key); 
+            if(currentFrequency > biggestFrequency){
+                biggestFrequency = currentFrequency;
                 mostAppearNumber = key;
             }
 
         }
-
-
+        
         return mostAppearNumber;
     }
 

@@ -2,7 +2,7 @@ package study;
 
 public class Fibonacci {
     public void isFibonacciNumber(int n){
-        int numberBefore = 0, currentNumber = 1, fibonacciNumber = 0;
+        int numberBefore = 0, currentNumber = 1, fibonacciNumber = 1;
 
         for(int i = 0; i < n; i++){
             System.out.println(fibonacciNumber);

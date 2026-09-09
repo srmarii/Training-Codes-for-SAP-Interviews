@@ -19,6 +19,7 @@ public class TwoDifference {
             if(hm.containsKey(complement)){
                 twoNums[0] = hm.get(complement);
                 twoNums[1] = i;
+                break;
             } else{
                 hm.put(nums[i], i);
             }

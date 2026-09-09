@@ -15,7 +15,6 @@ public class DigitSum {
             sum += assistant;
 
             num = num / 10;
-            assistant = 0;
         }
 
         return sum;
