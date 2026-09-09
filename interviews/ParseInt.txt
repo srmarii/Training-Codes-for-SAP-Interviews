@@ -1,0 +1,76 @@
+package interviews;
+
+public class ParseInt {
+
+
+
+ParseInt - Write a function that takes in a string parameter and converts it into an integer, but only if it is indeed an integer. Do not use Integer.parseInt() or similar.
+
+"123" -> 123
+"abc" -> 
+
+public int returnInteger(String numberString){
+	int lenght = numberString.length(), numberInt = 0;
+  Character currentCharacter = ''; 
+  
+  //key = numberString
+  //value = numberInt
+  HashMap<String, Integer> hashMap = new HashMap<>();
+  
+	if(!numberString.contains("a" || !numberString.contains("A") ... ){
+  
+    hashMap.put("0", 0);
+    hashMap.put("1", 1);
+    hashMap.put("2", 2);
+    hashMap.put("3", 3);
+    hashMap.put("4", 0);
+    hashMap.put("5", 0);
+    hashMap.put("6", 0);
+    hashMap.put("7", 0);
+    hashMap.put("0", 0);
+    hashMap.put("0", 0);
+    
+ 
+    123
+    012
+    
+    for(int i = 0; i < lenght; i++){
+    	currentCharacter = numberString.charAt(i);
+      
+      //"3"
+      if(hashMap.containsKey(currentCharacter)){
+      //1
+      //1*10 + 2 = 12
+      //12 * 10 + 3 = 123
+      	numberInt = (numberInt * 10) + hashMap.get(currentCharacter);
+      }
+    }
+    return numberInt;
+    
+  } else {
+  	return -1;
+  }
+
+}
+
+
+string "1" to int 1
+equals
+==
+"1" * 1
+
+"123" -> 123
+"1" -> 1
+"a" -> -1
+"A" -> -1
+"AAAaaa" -> -1
+"ABC" -> 1
+"" -> -1
+"12ab" -> -1
+null -> nullPointerException
+
+
+
+
+    
+}
