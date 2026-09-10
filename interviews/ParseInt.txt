@@ -3,7 +3,6 @@ package interviews;
 public class ParseInt {
 
 
-
 ParseInt - Write a function that takes in a string parameter and converts it into an integer, but only if it is indeed an integer. Do not use Integer.parseInt() or similar.
 
 "123" -> 123
