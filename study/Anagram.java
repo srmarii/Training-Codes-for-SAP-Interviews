@@ -28,17 +28,18 @@ public class Anagram {
         //value = frequency
         HashMap<Character, Integer> hm1 = new HashMap<>();
         HashMap<Character, Integer> hm2 = new HashMap<>();
+        Character currentlyChar;
 
         int tam1 = word1.length(), tam2 = word2.length();
 
         if(tam1 == tam2 && tam1 > 1){
             for(int i = 0; i<tam1; i++){
-                Character currentlyChar = word1.charAt(i);
+                currentlyChar = word1.charAt(i);
                 hm1.put(currentlyChar, hm1.getOrDefault(currentlyChar, 0) + 1);
             }
 
             for(int i = 0; i<tam1; i++){
-                Character currentlyChar = word2.charAt(i);
+                currentlyChar = word2.charAt(i);
                 hm2.put(currentlyChar, hm2.getOrDefault(currentlyChar, 0) + 1);
             }
 

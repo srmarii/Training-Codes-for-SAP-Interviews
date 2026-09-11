@@ -14,13 +14,13 @@ public class IntersectionOfTwoArrays {
         HashSet<Integer> hsArray1 = new HashSet<>();
         HashSet<Integer> intersection = new HashSet<>();
 
-        for(int num: array1){
-            hsArray1.add(num);
+        for(int num1: array1){
+            hsArray1.add(num1);
         }
 
-        for(int num: array2){
-            if(hsArray1.contains(num)){
-                intersection.add(num);
+        for(int num2: array2){
+            if(hsArray1.contains(num2)){
+                intersection.add(num2);
             }
         }
 
